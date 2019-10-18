@@ -441,7 +441,7 @@ EM.run do
 end
 ```
 
-If started outside the reactor loop, the websocket client will use a very basic Eventmachine handler.
+If started outside the reactor loop, the websocket client will use a very basic Eventmachine handler. Adding come text
 
 ```ruby
 require 'coinbase/exchange'
